@@ -84,13 +84,13 @@ Input: `nil`
 
 Output: `[]`
 
-3. **Given an array of type [Int?] return the sum of all non-nil values**
+3. **Given an array of type [Int?] return the sum of all non-nil values.  Use guard statements in your solution.**
 
 Input: `[4, nil, 9, 5, nil]`
 
 Output: `18`
 
-4. **Given an array of type [Int?]? return the sum of all non-nil values**
+4. **Given an array of type [Int?]? return the sum of all non-nil values.  Use guard statements in your solution.**
 
 Input: `nil`
 
