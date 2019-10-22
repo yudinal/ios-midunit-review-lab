@@ -42,6 +42,13 @@ Input: `Hello, there`
 
 Output: `Hllo, thr`
 
+```
+var phrase = "Hello, there"
+let char: Character = "e"
+phrase.filter() { $0 != "e" }
+
+```
+
 
 ## Arrays
 
