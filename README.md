@@ -8,6 +8,12 @@
 Input: `Hello, there`
 
 Output: `HELLO, THERE`
+```
+var lowerCase = "Hello, there"
+var upperCase = lowerCase.uppercased()
+print(upperCase)
+
+```
 
 2. **Given a String, return a String alternating between uppercase and lowercase letters**
 
@@ -15,7 +21,10 @@ Output: `HELLO, THERE`
 Input: `Hello, there`
 
 Output: `HeLlO, tHeRe`
-
+```
+let phrase = "Hello, there"
+for (index,char) phrase.
+```
 
 3. **Given a String, return a String with all occurrences of a given letter removed**
 
