@@ -22,8 +22,18 @@ Input: `Hello, there`
 
 Output: `HeLlO, tHeRe`
 ```
-let phrase = "Hello, there"
-for (index,char) phrase.
+var phrase = "Hello, there"
+var newPhrase = ""
+for (index,char) in phrase.enumerated() {
+    if index % 2 == 0 {
+        newPhrase += char.uppercased()
+       
+    } else {
+        newPhrase += String(char)
+    }
+}
+ print(newPhrase)
+ 
 ```
 
 3. **Given a String, return a String with all occurrences of a given letter removed**
