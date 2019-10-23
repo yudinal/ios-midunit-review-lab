@@ -58,12 +58,28 @@ phrase.filter() { $0 != "e" }
 Input: `[1,5,2,4,1,4]`
 
 Output: `5`
+```
+var arrayOfNumbers = [1,5,2,4,1,4]
+var largestNumber = arrayOfNumbers.first ?? 0
+for num in arrayOfNumbers {
+    if num > largestNumber {
+        largestNumber = num
+    }
+}
+print(largestNumber)
+```
 
 2. **Given an array of type [Int], return the smallest element**
 
 Input: `[1,5,2,4,1,4]`
 
 Output: `1`
+```
+var arrayOfNumbers = [1,5,2,4,1,4]
+var smallestElement = arrayOfNumbers.min() ?? 0
+print(smallestElement)
+
+```
 
 3. **Given an array of type [Int], return its sum**
 
